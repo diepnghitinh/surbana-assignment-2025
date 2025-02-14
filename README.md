@@ -13,6 +13,8 @@ Swagger: http://localhost:8888/swagger
 
 In this article, I will only focus on locations, which are the core problem of this codebase. I will cover how to add a location and how to retrieve them correctly.
 
+![API](./resources/swagger.png)
+
 ## Create a new location
 ![Diagram](./resources/1.jpg)
 
