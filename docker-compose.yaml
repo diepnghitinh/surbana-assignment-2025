@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  surbana-api:
+    build:
+      context: ./src/surbana-api
+      dockerfile: Dockerfile.arm64
+    image: surbana-api
+    env_file:
+      - ./configs/surbana-api.env
+    restart: always
+    ports:
+      - 8810:8080
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
