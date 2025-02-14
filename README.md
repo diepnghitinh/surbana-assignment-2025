@@ -5,6 +5,9 @@ Imagine that we have multiple buildings, and each building contains multiple loc
 
 I consider a building as a type of location, which means that whenever we perform CRUD operations on a building entity, its corresponding record in the locations table is also synchronized. Currently, the relationship is one-way from buildings to locations.
 
+# Configuration requirements
+Install Postgres Extension: Ltree
+
 # API Document
 Swagger: http://localhost:8888/swagger
 
